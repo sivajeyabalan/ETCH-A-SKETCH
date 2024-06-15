@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Added to include border and padding in the element's total width and height */
+}
+
+body {
+  background-color: aquamarine;
+}
+
+#sketch-area {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgb(46, 1, 1);
+  margin: 100px auto;
+  width: 600px; /* Ensures sketch area is correctly sized */
+  height: 600px; /* Ensures sketch area is correctly sized */
+  max-width: 100%; /* Ensures responsiveness */
+  max-height: 100%; /* Ensures responsiveness */
+}
+
+.cell {
+  border: 1px solid whitesmoke; /* Adjusted border to 1px to better fit the grid */
+  box-sizing: border-box; /* Ensures the border is included in the element's width and height */
+}
