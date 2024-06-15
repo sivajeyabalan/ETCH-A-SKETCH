@@ -47,3 +47,30 @@ body {
   border: 1px solid whitesmoke; /* Adjusted border to 1px to better fit the grid */
   box-sizing: border-box; /* Ensures the border is included in the element's width and height */
 }
+
+#slider-container{
+    margin : 0 auto ;
+}
+
+.slider{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 25px;
+  width: 100%;
+  background-color: aquamarine;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+
+}
+
+#slider-value {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.slider:hover{
+  opacity: 1;
+}
